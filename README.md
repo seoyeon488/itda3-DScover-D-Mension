@@ -116,3 +116,7 @@ reader = easyocr.Reader(
 6. **저장소 접근 권한**: Public 설정 또는 운영진 계정 Collaborator 초대를 완료하세요.
 ````
 ````
+## Custom Data
+
+- `custom_data/annotations/`: 자체 구축 데이터의 이미지별 좌표 annotation이 저장된 `.txt` 라벨 파일
+- `custom_data/manual_labeled/`: 자체 수집 데이터에 대해 직접 라벨링한 CSV 라벨 파일
