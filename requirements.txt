@@ -1,4 +1,4 @@
-# CPU 전용 torch/torchvision (macOS 사용자는 +cpu 접미사 제거하고 설치)
+# CPU-only torch/torchvision (macOS users: drop the +cpu suffix, no +cpu wheels for macOS)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.2.2+cpu
 torchvision==0.17.2+cpu
@@ -11,6 +11,6 @@ pandas==2.2.2
 numpy==1.26.4
 gdown==5.2.0
 
-# 채점 노트북 실행에 필요합니다. 삭제하지 마세요.
+# Required to execute the grading notebook. Do not remove.
 nbconvert==7.16.4
 ipykernel==6.29.4
